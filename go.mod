@@ -1,4 +1,4 @@
-module github.com/googleapis/gnostic-grpc
+module github.com/itetcetera/gnostic-grpc
 
 go 1.13
 

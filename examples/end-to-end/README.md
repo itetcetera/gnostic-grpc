@@ -8,14 +8,14 @@ OpenAPI description.
 
 
 #### What we will build:
-![alt text](https://raw.githubusercontent.com/googleapis/gnostic-grpc/master/examples/images/end-to-end-envoy.png "gRPC with Transcoding")
+![alt text](https://raw.githubusercontent.com/itetcetera/gnostic-grpc/master/examples/images/end-to-end-envoy.png "gRPC with Transcoding")
 
 #### Prerequisite
-Install [gnostic](https://github.com/googleapis/gnostic), [gnostic-grpc](https://github.com/googleapis/gnostic-grpc),
+Install [gnostic](https://github.com/googleapis/gnostic), [gnostic-grpc](https://github.com/itetcetera/gnostic-grpc),
 [go plugin for protoc](https://github.com/golang/protobuf/protoc-gen-go), and [gRPC](https://grpc.io/).
 
     go get -u github.com/googleapis/gnostic
-    go get -u github.com/googleapis/gnostic-grpc
+    go get -u github.com/itetcetera/gnostic-grpc
     go get -u github.com/golang/protobuf/protoc-gen-go
     go get -u google.golang.org/grpc
     

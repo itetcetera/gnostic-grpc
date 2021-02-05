@@ -93,7 +93,7 @@ func addDependencies(fdSet *dpb.FileDescriptorSet) {
 	lastFdProto := getLast(fdSet.File)
 	for _, fd := range fdSet.File {
 		if fd != lastFdProto {
-			if *fd.Name == "google/protobuf/empty.proto" { // Reference: https://github.com/googleapis/gnostic-grpc/issues/8
+			if *fd.Name == "google/protobuf/empty.proto" { // Reference: https://github.com/itetcetera/gnostic-grpc/issues/8
 				if shouldRenderEmptyImport {
 					lastFdProto.Dependency = append(lastFdProto.Dependency, *fd.Name)
 				}
@@ -561,7 +561,7 @@ func getProtobufTypes() map[string]dpb.FieldDescriptorProto_Type {
 }
 
 // findValidServiceName finds a valid service name for the gRPC service. A valid service name is not already taken by a
-// message. Reference: https://github.com/googleapis/gnostic-grpc/issues/7
+// message. Reference: https://github.com/itetcetera/gnostic-grpc/issues/7
 func findValidServiceName(messages []*dpb.DescriptorProto, serviceName string) string {
 	messageNames := make(map[string]bool)
 
