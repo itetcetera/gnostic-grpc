@@ -21,8 +21,8 @@ import (
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 	plugins "github.com/googleapis/gnostic/plugins"
 	surface "github.com/googleapis/gnostic/surface"
+	prDesc "github.com/itetcetera/protoreflect/desc"
 	prPrint "github.com/itetcetera/protoreflect/desc/protoprint"
-	prDesc "github.com/itetctera/protoreflect/desc"
 )
 
 // Renderer generates a .proto file based on the information inside Model.
