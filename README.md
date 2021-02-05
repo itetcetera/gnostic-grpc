@@ -16,7 +16,7 @@ gnostic plugin.
 ![High Level Overview](https://raw.githubusercontent.com/google/gnostic-grpc/master/examples/images/high-level-overview.png "High Level Overview")
 
 Under the hood the plugin first creates a FileDescriptorSet (`bookststore.descr`) from the input
-data. Then [protoreflect](https://github.com/jhump/protoreflect/) is used to print the output file. 
+data. Then [protoreflect](https://github.com/itetcetera/protoreflect/) is used to print the output file. 
 
 ## How to use:    
 Install gnostic and the plugin:
